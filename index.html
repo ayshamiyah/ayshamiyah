@@ -11,7 +11,6 @@
 
 body{
     background-repeat: no-repeat;
-    object-fit: fill;
     background-size: cover;
     filter: contrast(180%);
     font-family: 'Bigelow Rules';
@@ -25,8 +24,7 @@ body{
 @media (max-width: 480px) {
     body {
         background-image: url('skyblue.jpg');
-	height: 100%;
-	line-height: 4px;
+	object-fit: fill;
 	}
 }
 @media (min-width: 481px) and (max-width: 1024px) {
